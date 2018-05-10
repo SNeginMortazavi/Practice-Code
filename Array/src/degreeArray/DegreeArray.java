@@ -24,7 +24,6 @@ public class DegreeArray {
 		}
 		
 		degree = Collections.max(count.values());
-		
 		for(Integer s: count.keySet()){
 			if(count.get(s) == degree){
 				min = Math.min(min, rightIndex.get(s) - leftIndex.get(s) + 1);
@@ -34,7 +33,7 @@ public class DegreeArray {
 	}
 	
 	public static void main(String[] args){
-		int[] nums = {1,2,2,3,1,4,2};
+		int[] nums = {1,2,2,3,4,2};
 		DegreeArray app = new DegreeArray();
 		System.out.println(app.findShortestSubArray(nums));
 	}
