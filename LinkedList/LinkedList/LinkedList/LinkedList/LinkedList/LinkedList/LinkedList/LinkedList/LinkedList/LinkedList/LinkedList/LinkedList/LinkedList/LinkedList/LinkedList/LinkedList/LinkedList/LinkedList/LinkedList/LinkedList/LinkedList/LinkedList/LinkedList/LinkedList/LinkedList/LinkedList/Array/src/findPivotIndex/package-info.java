@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author negin
- *
- */
-package findPivotIndex;
